@@ -1,4 +1,10 @@
 @import "./global/global.css";
 @import "./global/header.css";
 @import "./utilities/colors.css";
-@import "./utilities/components.css"
+@import "./utilities/components.css";
+@import "./global/css/bootstrap.css";
+@import "./global/css/bootstrap-grid.css";
+
+
+
+
