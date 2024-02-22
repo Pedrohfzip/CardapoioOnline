@@ -20,6 +20,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
+	font-family: 'Poppins', 'Rubki', sans-serif;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -28,10 +29,14 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	background-color: var(--color-background);
+    color: var(--color-text);
 }
 ol, ul {
 	list-style: none;
+}
+b {
+    font-family: 'PoppinsMedium', 'Rubik', sans-serif;
 }
 blockquote, q {
 	quotes: none;
