@@ -49,6 +49,9 @@ a.navbar-brand{
     font-size: 20px;
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,.1);
 }
+.btn-white:hover{
+    background-color: var(--color-primary);
+}
 .btn-icon{
     padding-right: 75px;
 }
@@ -84,7 +87,7 @@ a.navbar-brand{
 }
 .text-banner p{
     margin-top: 15px;
-    margin-bottom: 15px;
+    
     font-size: 25px;
 }
 
@@ -120,7 +123,47 @@ a.navbar-brand{
     font-size: 18px!important;
     margin-left: 15px;
 }
+.btn-social{
+    width: 50px;
+}
 
+.card-banner{
+    height:450px;
+    width: 450px;
+    border-radius: 170px;
+    background-color: #f4c949;
+    position:absolute;
+    right: 8rem;
+    top: 13rem;
+}
+.img-banner img{
+    position: absolute;
+    width: 570px;
+}
+
+.card{
+    border-radius: 20px;
+    padding: 15px 20px;
+    font-size: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,.1)!important;
+    border: none;
+}
+
+.card-case{
+    width: 350px;
+    font-size: 14px;
+    position: absolute;
+    right: 5rem;
+    bottom: 1rem;
+}
+
+.card-case-name{
+    position: absolute;
+    font-size: 12px;
+    color: var(--color-primary);
+    right: 20px;
+    bottom: 10px
+}
 
 
 
