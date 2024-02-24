@@ -57,4 +57,20 @@ html, body {
     padding-top: 6px;
 }
 
+@media(max-width: 1200px){
+    .meucarrinhoFrase{
+        display:none; 
+    }
+    
+    .btn-icon .icon{
+        width: 45px;
+        height: 45px;
+        margin-top: -20px;
+    }
+    .btn-white{
+        background-color: var(--color-background);
+        padding: 10px 10px;
+    }
+}
+
 
