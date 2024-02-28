@@ -222,7 +222,16 @@ a.navbar-brand{
     padding-bottom: 150px;
 }
 
+.background-cardapio{
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 500px;
+    background-image: url('../img/bg-icons-1.png');
+}
+
 .card-item{
+    
     height: 400px;
 
 }
@@ -245,7 +254,7 @@ a.navbar-brand{
 }
 
 .card-item .add-carrinho{
-    /* display: none; */
+    display: none;
     text-align:center;
     height: 30px;
     justify-content:center;
@@ -272,10 +281,35 @@ a.navbar-brand{
 }
 .add-numero-itens{
     color: var(--color-black-heavy);
-    border: 2px solid var(--color-black-heavy);
-    border-top: 1px solid var(--color-black-heavy);
-    border-bottom: 1px solid var(--color-black-heavy);
+    padding: 2px 5px;
+    border-top: 2px solid var(--color-black-heavy);
+    border-bottom: 2px solid var(--color-black-heavy);
     
+}
+
+.btn-add{
+    border: 2px solid var(--color-black-heavy);
+    font-size: 16px;
+    padding: 4px 10px;
+    border-radius: 10px;
+    color: var(--color-white);
+    background-color: var(--color-black-heavy);
+    margin-left: 15px;
+}
+
+.card-item:hover{
+    background-color: var(--color-primary);
+}
+
+.card-item:hover .title-produto{ 
+    display: none;
+}
+
+.card-item:hover .add-carrinho{
+    display:flex;
+}
+.card-item:hover .price-produto{
+    color: var(--color-black-heavy);
 }
 
 
