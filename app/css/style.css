@@ -22,6 +22,10 @@
     --color-separate: #cccccc;
 }
 
+.hidden{
+    display: none!important;
+}
+
 html, body {
     font-family: 'PoppinsRegular', 'Rubik', sans-serif;
     background-color: var(--color-background);
@@ -354,11 +358,60 @@ a.navbar-brand{
 }
 
 
-
+.depoimento{
+    
+}
 #depoimento-1 .img-depoimento{
     background-image: url('../img/diego.jpg');
     background-size: cover;
 }
+
+#depoimento-2 .img-depoimento{
+    background-image: url('../img/ana.jpg');
+    background-size: cover;
+}
+#depoimento-3 .img-depoimento{
+    background-image: url('../img/joao.jpg');
+    background-size: cover;
+}
+
+.nome-depoimento{
+    color: var(--color-black);
+    font-size: 22px;
+    margin-bottom: 5px;
+
+}
+
+.nota-depoimento{
+    color: var(--color-primary);
+}
+
+.nota-depoimento span{
+    color: var(--color-black);
+}
+.texto-depoimento{
+    display: flex;
+    font-size: 16px;
+    color: var(--color-black);
+}
+
+.texto-depoimento i{
+    font-size: 35px;
+    color: var(--color-primary);
+}
+.texto-depoimento i:first-child {
+    padding-left: 10px;
+    padding-right: 35px;
+}
+
+.texto-depoimento i:last-child{
+    padding-left: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+
 
 
 
