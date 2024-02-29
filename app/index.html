@@ -419,7 +419,7 @@
             </div>
         </div>
         <div class="modal-body">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row mr-0 ml-0" id="itemsCarrinho">
 
                     <div class="col-12 item-carrinho">
@@ -435,10 +435,50 @@
 
                             </p>
                             <div class="add-carrinho">
-                                <span class="btn-menos"><i class="fas fa-minus"></i></span>
-                                <span class="add-numero">0</span>
-                                <span class="btn-mais"><i class="fas fa-plus"></i></span>
-                                <span class="btn-remove"><i class="fas fa-times"></i></span>
+                                <span class="btn btn-menos"><i class="fas fa-minus"></i></span>
+                                <span class="btn add-numero">0</span>
+                                <span class="btn btn-mais"><i class="fas fa-plus"></i></span>
+                                <span class="btn btn-remove"><i class="fas fa-times"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 item-carrinho">
+                        <div class="img-produto">
+                            <img src="./img//cardapio/burguers/goldbelly-burger-blend-1-lb.13a21b66edf7173a59c75c3a6d2f981b.jpg" alt="">
+                        </div>
+                        <div class="dados-produto ">
+                            <p>
+                                <b class="title-produto"> Nome do Produto</b>
+                            </p>
+                            <p>
+                                <b class="title-produto">R$ 29,90</b>
+
+                            </p>
+                            <div class="add-carrinho">
+                                <span class="btn btn-menos"><i class="fas fa-minus"></i></span>
+                                <span class="btn add-numero">0</span>
+                                <span class="btn btn-mais"><i class="fas fa-plus"></i></span>
+                                <span class="btn btn-remove"><i class="fas fa-times"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 item-carrinho">
+                        <div class="img-produto">
+                            <img src="./img//cardapio/burguers/goldbelly-burger-blend-1-lb.13a21b66edf7173a59c75c3a6d2f981b.jpg" alt="">
+                        </div>
+                        <div class="dados-produto ">
+                            <p>
+                                <b class="title-produto"> Nome do Produto</b>
+                            </p>
+                            <p>
+                                <b class="title-produto">R$ 29,90</b>
+
+                            </p>
+                            <div class="add-carrinho">
+                                <span class="btn btn-menos"><i class="fas fa-minus"></i></span>
+                                <span class="btn add-numero">0</span>
+                                <span class="btn btn-mais"><i class="fas fa-plus"></i></span>
+                                <span class="btn btn-remove"><i class="fas fa-times"></i></span>
                             </div>
                         </div>
                     </div>
@@ -452,8 +492,27 @@
                 </div>
             </div>
         </div>
-        <div class="modal-footer">
-
+        <div class="modal-footer d-flex mt-5">
+            <div class="container-fluid">
+                <div class="container-total text-end mb-4">
+                    <p class="mb-0">
+                        <span>Subtotal:</span>
+                        <span id="lblSubTotal">R$ 10,00</span>
+                    </p>
+                    <p class="mb-0 text-entrega">
+                        <span><i class="fas fa-motorcycle"></i>Entrega:</span>
+                        <span id="lblvalorEntrega"> + R$ 5,00</span>
+                    </p>
+                    <p class="mb-0 texto-total">
+                        <span><b>Total:</b></span>
+                        <span class="valor-total" id="lblvalorTotal"><b>R$ 15,00</b></span>
+                    </p>
+                </div>
+                <a href="" class="bnt btn-yellow float-end" id="btnEtapaPedido">Continuar</a>
+                <a href="" class="bnt btn-yellow float-end hidden" id="btnEtapaEndereco">Revisar Pedido</a>
+                <a href="" class="bnt btn-yellow float-end hidden" id="btnEtapaResumo">Enviar Pedido</a>
+                <a href="" class="bnt btn-white float-end hidden" id="btnVoltar">Voltar</a>
+            </div>
         </div>
     </div>
 
