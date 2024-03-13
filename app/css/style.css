@@ -51,9 +51,11 @@ a.navbar-brand{
     border-radius: 20px;
     padding: 15px 25px;
     font-size: 20px;
+    cursor: pointer
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,.1);
 }
 .btn-white:hover{
+    cursor: pointer
     background-color: var(--color-primary);
 }
 .btn-icon{
@@ -129,7 +131,9 @@ a.navbar-brand{
     border-radius: 15px !important;
     font-size: 18px!important;
     margin-left: 15px;
+    
 }
+
 .btn-social{
     width: 50px;
 }
@@ -220,13 +224,20 @@ a.navbar-brand{
 
 
 
-.container-menu{
-    padding-bottom: 50px;
-}
+
 
 .cardapio{
     padding-top: 50px;
     padding-bottom: 150px;
+}
+
+.container-menu{
+    padding-bottom: 50px;
+}
+
+.cardapio .container-menu a:hover{
+    cursor: pointer;
+    background-color:var(--color-primary)
 }
 
 .background-cardapio{
@@ -234,11 +245,11 @@ a.navbar-brand{
     left: 0;
     right: 0;
     height: 500px;
-    background-image: url('../img/bg-icons-1.png');
+    /* background-image: url('../img/bg-icons-1.png'); */
 }
 
 .card-item{
-    
+    margin-top: 30px;
     height: 400px;
 
 }
@@ -715,6 +726,7 @@ footer{
         background-color: var(--color-background);
         padding: 0px 0px;
         box-shadow: none;
+        cursor: pointer;
     }
 
     /* banner */
