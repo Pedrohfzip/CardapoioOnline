@@ -482,6 +482,10 @@ footer{
     flex-direction: column;
 }
 
+.modal-body{
+    border-bottom: 1px solid var(--color-separate);
+    
+}
 .modal-header{
  padding-bottom: 20px;   
 }
@@ -607,7 +611,7 @@ footer{
 .container-total{
     scrollbar-width: thin;
     padding-top: 20px;
-    border-top: 1px solid var(--color-separate);
+    /* border-top: 1px solid var(--color-separate); */
 }
 .texto-entrega{
     color: var(--color-separate);
@@ -636,6 +640,57 @@ footer{
 
 .container-cep {
     align-items: center;
+}
+
+.img-produto-resumo img{
+    width: 150px;
+    border-radius: 11px;
+}
+
+.title-produto-resumo{
+    color: var(--color-black);
+    font-size: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-bottom: 0px;
+}
+
+.item-carrinho.resumo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.price-produto.resumo{
+    color: var(--color-primary);
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.quantidade-produto-resumo{
+    color: var(--color-black);
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.img-map{
+    width: 50px;
+    height: 50px;
+    background: var(--color-secondary);
+    color: var(--color-black);
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+}
+
+.texto-endereco{
+    margin-bottom: 0px;
+    color: var(--color-black);
+}
+
+.cidade-endereco{
+    margin-bottom: 0px;
 }
 
 
